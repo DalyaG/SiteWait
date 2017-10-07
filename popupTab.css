@@ -1,0 +1,50 @@
+.mainDiv {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hiddenMainDiv {
+  visibility: hidden;
+}
+
+.waitImage {
+  height: 200px;
+  width: 200px;
+}
+
+.questionDiv {
+  margin-top: 20px;
+  color: red;
+  font-size: 22px;
+}
+
+.answersDiv {
+  margin-top: 20px;
+}
+
+.yesBtn,
+.noBtn {
+  height: 40px;
+  width: 120px;
+}
+
+.yesBtn {
+  color: green;
+  background-color: yellow;
+  margin-right: 10px;
+}
+
+.noBtn {
+  color: blue;
+  background-color: beige;
+  margin-left: 10px;
+}
